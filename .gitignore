@@ -1,0 +1,11 @@
+# Datos de Jenkins (viven en el volumen Docker jenkins_home, no en el repo)
+jenkins_home/
+secrets/
+*.key
+initialAdminPassword
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

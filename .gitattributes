@@ -1,0 +1,4 @@
+# Scripts de shell y Jenkinsfile siempre con LF para que funcionen dentro del contenedor Linux
+*.sh        text eol=lf
+Jenkinsfile text eol=lf
+*.xml       text eol=lf
